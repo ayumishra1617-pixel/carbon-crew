@@ -1,0 +1,26 @@
+{
+  "name": "UserGameProgress",
+  "type": "object",
+  "properties": {
+    "user_id": {
+      "type": "string"
+    },
+    "game_id": {
+      "type": "string"
+    },
+    "current_level": {
+      "type": "number",
+      "default": 1
+    },
+    "accuracy": {
+      "type": "number"
+    },
+    "completed_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "game_id"
+  ]
+}

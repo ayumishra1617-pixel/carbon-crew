@@ -1,0 +1,16 @@
+{
+  "name": "Conversation",
+  "type": "object",
+  "properties": {
+    "user_id": {
+      "type": "string"
+    },
+    "count": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "required": [
+    "count"
+  ]
+}

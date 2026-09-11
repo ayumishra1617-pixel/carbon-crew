@@ -1,0 +1,29 @@
+{
+  "name": "GameLevel",
+  "type": "object",
+  "properties": {
+    "game_id": {
+      "type": "string"
+    },
+    "level_number": {
+      "type": "number"
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": [
+        "easy",
+        "medium",
+        "hard",
+        "expert"
+      ]
+    },
+    "config": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "game_id",
+    "level_number",
+    "difficulty"
+  ]
+}

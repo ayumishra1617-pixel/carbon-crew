@@ -1,0 +1,28 @@
+{
+  "name": "Game",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "memory",
+        "pattern",
+        "word",
+        "number"
+      ]
+    },
+    "description": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "name",
+    "category"
+  ]
+}
